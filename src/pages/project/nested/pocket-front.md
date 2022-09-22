@@ -5,7 +5,7 @@ client: Self
 publishDate: 2020-03-04 00:00:00
 img: /assets/ionic.png
 description: |
-  The mobile app that consumes my expenses API!
+  A mobile app to keep track of my expenses!
 tags:
   - design
   - dev
