@@ -7,8 +7,7 @@ import PortfolioPreview from '../components/PortfolioPreview.astro';
 
 // Data Fetching: List all Markdown posts in the repo.
 const projects = await Astro.glob('./project/**/*.md');
-const featuredProject = projects[0];
-
+const featuredProject = projects[1]
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
 ---
@@ -230,18 +229,25 @@ const featuredProject = projects[0];
 					<h3 class="sectionTitle">Selected Work</h3>
 					<PortfolioPreview project={featuredProject} />
 					<div class="buttonContainer">
-						<a href="/products/" class="button">View All</a>
+						<a href="/projects/" class="button">View All</a>
 					</div>
 				</div>
 				<div class="section">
 					<h3 class="sectionTitle">About me</h3>
 					<p class="bio">
-						<span>Hello!</span> I’m Roberto, and this is my website. It was made using{' '}
+						<span>Hello!</span> I’m Roberto, and this is my website.
+						I'm a fullstack webdeveloper, with deep knowledge in Python, Java, and Javascript.
+						
+						I made this portfolio using{' '}
 						<a href="https://github.com/withastro/astro" target="_blank" rel="nofollow"> Astro</a>,
-						a new way to build static sites. This is just an example template that I've modified.
+						a new way to build static sites.
 					</p>
 					<p>
-						<a href="/about">Read more</a>
+						You can check some of my opensource work <a href="/projects">here</a>. Or all of it over
+						<a href="http://github.com/robCastro" target="_blank">Github</a>
+					</p>
+					<p>
+						Or read more about me <a href="/about">here</a>
 					</p>
 				</div>
 			</div>
