@@ -13,9 +13,12 @@ tags:
   - backend
 ---
 
+This is the backend that provides RESTful endpoints that a hybrid app consumes. You can read more about the app [here](/project/nested/pocket-front).
+
+
 In my country there is this expression "tarjetazo", which refers to using your card in an emotional expense without really thinking about what you're buying. And I honestly have been doing too much tarjetazos recently LOL.
 
-So I decided to make an app where I could record all my expenses and have an expending plan for every month. This is the backend API for that app.
+So I decided to make an app where I could record all my expenses and have an expending plan for every month.
 
 It's made with Django and Django Rest Framework. Django provides a nice admin panel to manage all my models, and Django Rest Framework provides the REST API support that the mobile app consumes.
 
