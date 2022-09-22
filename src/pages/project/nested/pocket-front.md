@@ -1,6 +1,6 @@
 ---
 layout: ../../../layouts/project.astro
-title: Expenses Mobile App
+title: Expenses App
 client: Self
 publishDate: 2020-03-04 00:00:00
 img: /assets/ionic.png
@@ -10,7 +10,6 @@ tags:
   - design
   - dev
   - mobile
-  - hybrid
   - frontend
 ---
 
@@ -29,7 +28,7 @@ It has a dashboard, which shows how much I've spend this month in different area
 
 You can register budgets in the form of "categories".
 
-INSERTAR IMAGEN DE CREAR CATEGORY AQUI
+
 ![new budget](/assets/pocket-front/new-budget.jpg "Creating a new Budget")
 
 And declare expenses for different budgets.
